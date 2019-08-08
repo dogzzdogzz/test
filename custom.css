@@ -27,11 +27,11 @@ limitations under the License.
     --background-bright: #FFF;
  
     --border-dim: #666;
-    /* --border-bright: var(--primary); */
-    --border-bright: var(--background-bright);
+    --border-bright: var(--primary);
     
     --text-bright: #888;
-    --text-special: var(--primary);
+    /* --text-special: var(--primary); */
+    --text-special: var(--background-bright)
  
     --scrollbar-background: #000;
     --scrollbar-border: var(--primary);
