@@ -1781,7 +1781,7 @@ limitations under the License.
  
  /* unread counter */
  .p-channel_sidebar__channel--unread:not(.p-channel_sidebar__channel--muted):not(.p-channel_sidebar__channel--selected) .p-channel_sidebar__name {
-     color: var(--primary) !important;
+     color: #8B0000 !important;
  }
  
  /* help modal */
