@@ -27,8 +27,9 @@ limitations under the License.
     --background-bright: #FFF;
  
     --border-dim: #666;
-    --border-bright: var(--primary);
- 
+    /* --border-bright: var(--primary); */
+    --border-bright: var(--background-bright);
+    
     --text-bright: #888;
     --text-special: var(--primary);
  
