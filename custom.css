@@ -20,7 +20,7 @@ limitations under the License.
     --text: #BBB;
     --background: #111;
     --background-elevated: #222;
-    --special: #4169E1;
+    --special: #00CED1;
  
     /* These should be less important: */
     --background-hover: rgba(255, 255, 255, 0.1);
@@ -1781,7 +1781,7 @@ limitations under the License.
  
  /* unread counter */
  .p-channel_sidebar__channel--unread:not(.p-channel_sidebar__channel--muted):not(.p-channel_sidebar__channel--selected) .p-channel_sidebar__name {
-     color: #8B0000 !important;
+     color: var(--primary) !important;
  }
  
  /* help modal */
