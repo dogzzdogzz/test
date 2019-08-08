@@ -16,7 +16,7 @@ limitations under the License.
 
 :root {
     /* Modify these to change your theme colors: */
-    --primary: #CCC;
+    --primary: #09F;
     --text: #888;
     --background: #111;
     --background-elevated: #222;
@@ -27,16 +27,13 @@ limitations under the License.
     --background-bright: #FFF;
  
     --border-dim: #666;
-    /* --border-bright: var(--primary); */
-    --border-bright: var(--background-bright);
+    --border-bright: var(--primary);
  
     --text-bright: #888;
-    /* --text-special: var(--primary); */
-    --text-special: var(--background-bright);
+    --text-special: var(--primary);
  
     --scrollbar-background: #000;
-    /* --scrollbar-border: var(--primary); */
-    --scrollbar-border: var(--background-bright);
+    --scrollbar-border: var(--primary);
  }
  
  h1, h2, h3, h4 {
@@ -1783,8 +1780,7 @@ limitations under the License.
  
  /* unread counter */
  .p-channel_sidebar__channel--unread:not(.p-channel_sidebar__channel--muted):not(.p-channel_sidebar__channel--selected) .p-channel_sidebar__name {
-     /* color: var(--primary) !important; */
-     color: var(--background-bright) !important;
+     color: var(--primary) !important;
  }
  
  /* help modal */
